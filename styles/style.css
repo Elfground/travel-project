@@ -133,8 +133,13 @@ main {
     justify-content: space-evenly;
 }
 .img-responsive {
-    max-width: 40%;
+    width: 100%;
+    display: block;
 }
+.embed {
+    width: 100%;
+    aspect-ratio: 1 /1;
+  }
 .button {
     display: block;
     margin: 0 auto;
@@ -168,7 +173,6 @@ main {
 }
 .card {
     background-color: white;
-    padding: 20px;
     box-shadow: 10px 5px 5px rgba(0,0,0,0.2)
 }
 .card h4 {
@@ -184,6 +188,16 @@ main {
 .card p {
     margin-top: 0px;
 }
+.card-header.grid {
+    grid-gap: 0;
+}
+.card-body {
+    padding: 30px;
+}
+.card-footer {
+    padding: 0 30px 30px;
+}
+
 .card-button {
     display: block;
     line-height: 1.2;
@@ -245,6 +259,7 @@ main {
     .main-image {
         max-width: 100%;
     }
+
 }
 @media (max-width: 596px) {
     header h1 {
@@ -288,4 +303,10 @@ main {
         width: 75%;
         height: 80%;
     }
+    .card-header img {
+        display: none;
+      }
+      .embed {
+        aspect-ratio: 16 / 9;
+      }
 }

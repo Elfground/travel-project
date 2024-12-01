@@ -214,7 +214,13 @@ main {
     color: #142c49;
     transition: all 100ms ease-in-out;
 }
-
+.gallery h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.gallery h3 {
+    padding-bottom: 30px;
+}
 .footer_link {
     text-decoration: none;
     color:rgb(139, 81, 26);

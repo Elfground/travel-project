@@ -1,0 +1,74 @@
+body {
+    margin: 0 auto;
+}
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url("/images/castelnuovo2.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+h1 {
+    line-height: 120px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 140px;
+    font-family: "Lexend Deca", sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h2 {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 70px;
+    font-family: "Lexend Deca", sans-serif;
+    margin-bottom: 5px;
+    margin-top: -30px;
+}
+h3 {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 70px;
+    font-family: "Lexend Deca", sans-serif;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    padding-bottom: 50px;
+    line-height: 1.5;
+}
+footer {
+    text-align: center;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 13px;
+    font-weight: 150;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.button {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
+    max-height: 60px;
+    line-height: 1.5;
+    background-color: white;
+    color: #5D3A2E;
+    text-align: center;
+    padding: 8px;
+    font-family: "Lexend Deca", sans-serif;
+    text-decoration: none;
+    border-radius: 10px;
+} 
+.button:hover {
+    color: white;
+    background-color: #5D3A2E;
+    transition: all 100ms ease-in-out;
+}
+.footer_link {
+    text-decoration: none;
+    color:rgb(139, 81, 26);
+}

@@ -47,14 +47,14 @@ main {
 }
 main h2 {
     font-family: "Lexend Deca", sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 1.5;
     font-weight: 100;
     margin: 0;
 }
 main h3 {
     font-family: "Lexend Deca", sans-serif;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 1.5;
     font-weight: 200;
     margin: 0;
@@ -65,6 +65,7 @@ main p {
     line-height: 1.5;
     font-weight: 200;
 }
+
 footer {
     max-width: 1200px;
     margin: 0 auto;
@@ -72,12 +73,13 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 80px 0;
+    padding: 20px 0;
 
 }
 section {
-    max-width: 1000px;
+    max-width: 100%;
     margin: 0 auto;
+    padding: 50px;
 }
 footer h3 {
     font-family: "Lexend Deca", sans-serif;
@@ -111,13 +113,11 @@ footer p {
 main {
     margin: 0 auto;
     max-width: 1200px;
-    padding-top: 75px;
 }
 .container {
     margin: 0 auto;
     max-width: 1400px;
 }
-
 .main-image {
     max-width: 500px;
 }
@@ -126,15 +126,15 @@ main {
 }
 .grid-2-columns {
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 50px;
-    justify-content: space-evenly;
 }
 .grid-3-columns {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 10px;
+    grid-column-gap: 50px;
     justify-content: space-evenly;
 }
-
+.img-responsive {
+    max-width: 40%;
+}
 .button {
     display: block;
     margin: 0 auto;
@@ -154,6 +154,53 @@ main {
     color: #142c49;
     transition: all 100ms ease-in-out;
 }
+.text-centered {
+    text-align: center;
+}
+.cards {
+    background-color: #e6ebd4;
+}
+.cards h3 {
+    padding-bottom: 30px;
+}
+.cards h2 {
+    font-size: 15px;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 10px 5px 5px rgba(0,0,0,0.2)
+}
+.card h4 {
+    margin: 0;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 300;
+}
+.card h5 {
+    margin: 0;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 300;
+}
+.card p {
+    margin-top: 0px;
+}
+.card-button {
+    display: block;
+    line-height: 1.2;
+    color: white;
+    background-color: #142c49;
+    text-align: center;
+    padding: 16px;
+    font-family: "Lexend Deca", sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+}
+.card-button:hover {
+    background-color: white;
+    color: #142c49;
+    transition: all 100ms ease-in-out;
+}
+
 .footer_link {
     text-decoration: none;
     color:rgb(139, 81, 26);
@@ -214,21 +261,18 @@ main {
         margin: 0;
         margin-top: -20px;
     }
-
     section {
-        max-width: 800px;
+        max-width: 596px;
         margin: 0 auto;
     }
 main {
     max-width: 596px;
     margin: 0 auto;
-    padding: 10px;
 }
 .main-image {
     max-width: 75%;
 }
     .grid-2-columns {
-        padding: 20px;
         display: grid;
         grid-template-columns: 1fr;
         grid-row-gap: 10px;

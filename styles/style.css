@@ -208,11 +208,15 @@ main {
     font-family: "Lexend Deca", sans-serif;
     text-decoration: none;
     font-size: 12px;
+    border: 1px solid;
+    border-color: #142c49;
 }
 .card-button:hover {
     background-color: white;
     color: #142c49;
     transition: all 100ms ease-in-out;
+    border: 1px solid;
+    border-color: #142c49;
 }
 .gallery h2 {
     font-size: 15px;
